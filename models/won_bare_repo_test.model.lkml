@@ -1,4 +1,5 @@
 connection: "lookerdata_standard_sql"
+include: "/views/*.view"
 
 datagroup: won_bare_repo_test_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
@@ -6,3 +7,5 @@ datagroup: won_bare_repo_test_default_datagroup {
 }
 
 persist_with: won_bare_repo_test_default_datagroup
+
+explore: cast_crew {}
