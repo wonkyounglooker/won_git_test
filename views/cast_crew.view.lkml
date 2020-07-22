@@ -2,7 +2,7 @@ view: cast_crew {
   sql_table_name: `lookerdata.mak_movies.cast_crew`
     ;;
 
-  dimension: category_test {
+  dimension: category {
     type: string
     sql: ${TABLE}.category ;;
   }
