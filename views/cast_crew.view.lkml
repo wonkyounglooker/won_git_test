@@ -4,6 +4,7 @@ view: cast_crew {
 
   dimension: category_test {
     type: string
+    label: "won git test"
     sql: ${TABLE}.category ;;
   }
 
